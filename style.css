@@ -8,9 +8,12 @@
   border-radius: 30px;
   color: azure;
 }
+h1 {
+  font-size: 25px;
+}
 
 .digital-clock {
-  border-style: dotted;
+  border-style: dashed;
   border-width: 14px;
   border-radius: 30px;
   color: #02e700;
