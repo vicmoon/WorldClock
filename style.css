@@ -4,6 +4,10 @@ body{
     background-color: black;
 
 }
-h1, footer {
+.cityName, h1, footer {
     color: azure;
+}
+
+footer{
+    padding: 50px;
 }
