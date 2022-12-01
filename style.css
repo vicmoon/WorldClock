@@ -1,13 +1,16 @@
-body{
-    text-align: center;
-    display: block;
-    background-color: black;
-
-}
-.cityName, h1, footer {
-    color: azure;
-}
 
 footer{
     padding: 50px;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+    color: azure;
+    
 }
