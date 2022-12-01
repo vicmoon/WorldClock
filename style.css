@@ -1,6 +1,7 @@
 
 .container{
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     max-width: 800px;
     margin: 0 auto;
     background-color: black;
@@ -12,7 +13,7 @@
 
 .digital-clock{
    border-style:dashed;
-   border-width: 15px;
+   border-width: 14px;
    border-radius: 30px;
   
 
