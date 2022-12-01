@@ -5,16 +5,17 @@
     margin: 0 auto;
     background-color: black;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 30px;
     color: azure;
     
 }
-h1{
-  border-style: dotted;
-}
+
 .digital-clock{
-   border-width: 20px 20px;
-   color:rgb(6, 235, 216);
+   border-style:dashed;
+   border-width: 15px;
+   border-radius: 30px;
+  
+
    
 }
 .time {
