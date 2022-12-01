@@ -1,35 +1,31 @@
-
-.container{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: black;
-    padding: 30px;
-    border-radius: 30px;
-    color: azure;
-    
+.container {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: black;
+  padding: 30px;
+  border-radius: 30px;
+  color: azure;
 }
 
-.digital-clock{
-   border-style:dashed;
-   border-width: 14px;
-   border-radius: 30px;
-  
-
-   
+.digital-clock {
+  border-style: dotted;
+  border-width: 14px;
+  border-radius: 30px;
+  color: #02e700;
 }
 .time {
-    font-size: 30px;
+  font-size: 30px;
 }
 .cityName {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-
-footer{
-padding: 50px;
-text-align: center;
-background-color:aliceblue;
-  
+footer {
+  padding: 50px;
+  text-align: center;
+  background-color: aliceblue;
+  font-family: "Press Start 2P", cursive;
+  font-size: 10px;
 }
