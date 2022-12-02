@@ -18,7 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
       rel="stylesheet"
     />
-  </head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+   <script src=" https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-10-year-range.js"></script>
   <body>
     <div class="container mt-5 mb-5 border border-5">
       <div class="digital-clock">
@@ -32,31 +33,19 @@
           <option value="">Singapore</option>
           <option value="">Oslo</option>
         </select>
-
-        <div class="cityName">
+        <div class="cityName" id="prague">
+            <div class="row mb-3">
+              <div class="col-6">
+                <h2>Prague</h2>
+                <div class="date">December 1st 2022</div>
+              </div>
+              <div class="col-6">
+                <div class="time">2:40:20 <small> PM</small></div>
+              </div>
+            </div>
+          </div>
+        <div class="cityName" id="tokyo">
           <div class="row mb-3">
-            <div class="col-6">
-              <h2>Prague</h2>
-              <div class="date">December 1st 2022</div>
-            </div>
-            <div class="col-6">
-              <div class="time">2:40:20 <small> PM</small></div>
-            </div>
-          </div>
-        </div>
-        <div class="cityName">
-          <div class="row">
-            <div class="col-6">
-              <h2>Paris</h2>
-              <div class="date">December 1st 2022</div>
-            </div>
-            <div class="col-6">
-              <div class="time">2:40:20 PM</div>
-            </div>
-          </div>
-        </div>
-        <div class="cityName">
-          <div class="row mb-5">
             <div class="col-6">
               <h2>Tokyo</h2>
               <div class="date">December 1st 2022</div>
@@ -66,6 +55,18 @@
             </div>
           </div>
         </div>
+        
+        <div class="cityName" id="kiev">
+            <div class="row mb-3">
+              <div class="col-6">
+                <h2>Kiev</h2>
+                <div class="date">December 1st 2022</div>
+              </div>
+              <div class="col-6">
+                <div class="time">2:40:20 PM</div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
     <footer>
@@ -82,5 +83,6 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
