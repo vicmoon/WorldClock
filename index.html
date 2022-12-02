@@ -25,49 +25,40 @@
       <div class="digital-clock">
         <h1 class="mt-5">World Clock</h1>
 
-        <select class="mt-5 mb-5 btn btn-warning text-start">
+        <select class="mt-5 mb-5 btn btn-warning text-start" id="city">
           <option value="">Select a city</option>
-          <option value="">Prague</option>
-          <option value="">Paris</option>
-          <option value="">Tokyo</option>
-          <option value="">Singapore</option>
-          <option value="">Oslo</option>
+          <option value="Europe/Prague">Prague</option>
+          <option value="Europe/Paris">Paris</option>
+          <option value="Asia/Tokyo">Tokyo</option>
+          <option value="Asia/Singapore">Singapore</option>
+          <option value="Europe/Oslo">Oslo</option>
         </select>
+        <div id="cities">
         <div class="cityName" id="prague">
             <div class="row mb-3">
               <div class="col-6">
                 <h2>Prague</h2>
-                <div class="date">December 1st 2022</div>
+                <div class="date">@</div>
               </div>
               <div class="col-6">
-                <div class="time">2:40:20 <small> PM</small></div>
+                <div class="time"></div>
               </div>
             </div>
-          </div>
+          </div> 
         <div class="cityName" id="tokyo">
           <div class="row mb-3">
             <div class="col-6">
               <h2>Tokyo</h2>
-              <div class="date">December 1st 2022</div>
+              <div class="date"></div>
             </div>
             <div class="col-6">
-              <div class="time">2:40:20 PM</div>
+              <div class="time"></div>
             </div>
           </div>
         </div>
-        
-        <div class="cityName" id="kiev">
-            <div class="row mb-3">
-              <div class="col-6">
-                <h2>Kiev</h2>
-                <div class="date">December 1st 2022</div>
-              </div>
-              <div class="col-6">
-                <div class="time">2:40:20 PM</div>
-              </div>
-            </div>
-          </div>
       </div>
+
+    </div>
     </div>
     <footer>
       Project coded with ❤ by
