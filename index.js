@@ -44,6 +44,7 @@ function updateCity(event){
       <div class="date mb-3">${cityTime.format("ddd  Do YYYY ")}</div></div>
       <div class="time mb-3">${cityTime.format("hh:mm:ss a")}</div></div>
      </div>
+     <a href="index.html"> Back </a>
     
     
 
