@@ -3,13 +3,10 @@
   font-family: "Press Start 2P", cursive;
   max-width: 800px;
   margin: 0 auto;
-  background-color: black;
+  background-color:black;
   padding: 30px;
   border-radius: 30px;
   color: azure;
-}
-h1 {
-  font-size: 25px;
 }
 
 .digital-clock {
@@ -22,13 +19,13 @@ h1 {
   font-size: 30px;
 }
 .cityName {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 footer {
   padding: 50px;
   text-align: center;
-  background-color: aliceblue;
+  background-color: rgb(227, 234, 241);
   font-family: "Press Start 2P", cursive;
   font-size: 10px;
 }
