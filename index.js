@@ -11,7 +11,6 @@ let pragueTime= moment().tz("Europe/Prague");
 pragueTimeElement.innerHTML= pragueTime.format("hh:mm:ss a");
 pragueDateElement.innerHTML= pragueTime.format("ddd Do YYYY ");
 
-
 //Tokyo
 let tokyoElement = document.querySelector("#tokyo"); 
 let tokyoDateElement=tokyoElement.querySelector(".date");
@@ -23,31 +22,31 @@ tokyoDateElement.innerHTML= tokyoTime.format("ddd Do YYYY ");
 
 
 }
+
 updateTime();
 setInterval(updateTime, 1000);
 
-
-
 function updateCity(event){
     let timeZone= event.target.value;
-    let cityTime= moment.tz(timeZone);
-    console.log(timeZone);
-    console.log(cityTime.format("MMMM Do YYYY"));
+      if(timeZone === "current"){
+        timeZone= moment.tz.guess();
+    }
+
+    let cityTime= moment().tz(timeZone);
+    let cityName =timeZone.split("/")[1];
     let allCitiesElement =document.querySelector("#cities");
-    console.log(allCitiesElement);
-    allCitiesElement.innerHTML=timeZone;
-    allCitiesElement=`
-
-    <div class="row mb-3">
-    <div class="col-6">
-      <h2>${timeZone}</h2>
-      <div class="date">${cityTime.format("ddd Do YYYY ")}</div>
-    </div>
-    <div class="col-6">
-      <div class="time">${cityTime.format("hh:mm:ss a")}></div>
-    </div>
-  </div>
-
+    
+    allCitiesElement.innerHTML =
+    `
+ 
+      <div>
+      <h2 class="mb-3">${cityName}</h2> 
+      <div class="date mb-3">${cityTime.format("ddd  Do YYYY ")}</div></div>
+      <div class="time mb-3">${cityTime.format("hh:mm:ss a")}</div></div>
+     </div>
+     <a href="index.html"> Back </a>
+    
+    
 
     `;
 
